@@ -16,7 +16,7 @@
 
 
 ## Description  
-This set of scripts is part of the work described in the publication available at the following link: [link]. Its purpose is to automate the mapping of subglacial bedforms, producing geomorphological maps (bedform outlines and centerlines) as well as morphometric maps (bedform outlines and hexagonal grids with values of various morphometric parameters [Morphometric_parameters]).  
+This set of scripts is part of the work described in the publication available at the following link: [link]. Its purpose is to automate the mapping of subglacial bedforms, producing geomorphological maps (bedform outlines and centerlines) as well as morphometric maps (bedform outlines and hexagonal grids with values of various morphometric parameters [Morphometric_parameters](Morphometric_parameters.md).  
 
 The goal of these cartographic products is to support the reconstruction of ice sheet dynamics by providing insights into subglacial environments, such as subglacial deformation or hydrology.
 
