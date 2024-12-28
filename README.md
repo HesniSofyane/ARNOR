@@ -39,7 +39,7 @@ For clarity, the scripts are provided as Jupyter notebooks [scripts_notebooks](S
 2. **Normalized Difference Water Index (NDWI) Image**  
    The second required input is an image representing the NDWI of the same area as the DEM. This image is used to filter out water bodies, such as lakes, which are prevalent in regions where this method has been developed (e.g., Canada, Laurentide Ice Sheet, Keewatin area). NDWI is calculated from satellite imagery bands, and the equations are described in various sources for each satellite data provider.  
 
-   A script for downloading satellite images and NDWI is provided [Scripts/Download_NDWI], but it is not fully stable and is not officially part of the publication.  
+   A script for downloading satellite images and NDWI is provided [NDWI_download_notebook.ipynb](/NDWI/NDWI_download_notebook.ipynb), but it is not fully stable and is not officially part of the publication.  
 
    Alternatively, the scripts can run without NDWI input [Scriptd/script_without_NDWI]; however, this may result in noisy outputs if water bodies are present in the study area, requiring additional post-processing techniques.  
 
