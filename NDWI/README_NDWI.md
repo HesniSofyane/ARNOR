@@ -1,3 +1,3 @@
-Here you will find a Python (Jupyter) notebook that allows you to download an NDWI (Normalized Difference Water Index) image. This script uses an Area of Interest (AOI) as input to locate, extract, and download the image.
+Here you will find a [Python (Jupyter) notebook](/NDWI/NDWI_download_notebook.ipynb) that allows you to download an [NDWI (Normalized Difference Water Index](/NDWI/NDWI_output.tif) image. This script uses an [Area of Interest (AOI)](/NDWI/aoi_example.geojson) as input to locate, extract, and download the image.
 
 A Google Earth Engine account is required, and authentication is necessary. Visualizations are not available on GitHub but will be accessible when you run the corresponding cells. The image will be downloaded to the Google Drive associated with the Google Earth Engine account you specify.
