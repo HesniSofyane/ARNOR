@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "aoi_example_3413",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -102.364889238598039, 64.194978480545984 ], [ -102.193796732258377, 64.31080321474407 ], [ -102.379322306436904, 64.362477572055639 ], [ -102.549905613032607, 64.246389824624927 ], [ -102.364889238598039, 64.194978480545984 ] ] ] } }
+]
+}
