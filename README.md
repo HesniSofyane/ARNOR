@@ -16,11 +16,11 @@
 
 
 ## Description  
-This set of scripts is part of the work described in the publication available at the following link: [link]. Its purpose is to automate the mapping of subglacial bedforms, producing geomorphological maps (bedform outlines and centerlines) as well as morphometric maps (bedform outlines and hexagonal grids with values of various morphometric parameters [Morphometric_parameters](/Documentation/Morphometric_parameters.md).  
+This set of scripts is part of the work described in the publication available at the following link: [link]. Its purpose is to automate the mapping of subglacial bedforms, producing geomorphological maps ([bedform outlines](Outlines_and_centerlines_delineation/smoothed_outlines.gpkg) and [centerlines](Outlines_and_centerlines_delineation/smoothed_centerlines.gpkg)) as well as morphometric maps ([bedform outlines](Morphometric_parameters_calculation_and_statistical_sampling/outlines_with_morphometrics.gpkg) and [hexagonal grids](Morphometric_parameters_calculation_and_statistical_sampling/hexagonal_grid_with_morphometrics.gpkg) with values of various [morphometric parameters](/Documentation/Morphometric_parameters.md).  
 
 The goal of these cartographic products is to support the reconstruction of ice sheet dynamics by providing insights into subglacial environments, such as subglacial deformation or hydrology.
 
-The scripts are written in Python, but result visualization can be simplified using GIS software such as QGIS (free) or ArcGIS (paid).  
+The scripts are written in Python and most outputs are in geopackage, but result visualization can be simplified using GIS software such as QGIS (free) or ArcGIS (paid).  
 
 ---
 
@@ -39,11 +39,11 @@ For clarity, the scripts are provided as Jupyter notebooks with minimal reproduc
 2. **Normalized Difference Water Index (NDWI) Image**  
    The second required input is an image representing the NDWI of the same area as the DEM. This image is used to filter out water bodies, such as lakes, which are prevalent in regions where this method has been developed (e.g., Canada, Laurentide Ice Sheet, Keewatin area). NDWI is calculated from satellite imagery bands, and the equations are described in various sources for each satellite data provider.  (ex: [input_NDWI](/Outlines_and_centerlines_delineation/input_NDWI.tif))
 
-   A [script](/NDWI/NDWI_download_notebook.ipynb) for downloading satellite images and NDWI is provided, but it is not fully stable yet and is not officially part of the publication.  
+   A [script](/NDWI/NDWI_download_notebook.ipynb) for downloading satellite images and computing NDWI is provided, but it is not fully stable yet and is not officially part of the publication.  
 
    Alternatively, the scripts could run without NDWI input; however, this may result in noisy outputs if water bodies are present in the study area, requiring additional post-processing techniques.  
 
-4. **Custom Grids for Sampling Morphometric Data**  
+3. **Custom Grids for Sampling Morphometric Data**  
    Users can also supply their own grids for sampling morphometric data based on bedform outlines. (see [Custom_grid_Morphometric_parameters_calculation_and_statistical_sampling](Morphometric_parameters_calculation_and_statistical_sampling/Custom_grid_Morphometric_parameters_calculation_and_statistical_sampling.ipynb))
 
 ---
