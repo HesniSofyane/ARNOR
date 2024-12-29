@@ -34,16 +34,16 @@ For clarity, the scripts are provided as Jupyter notebooks with minimal reproduc
 ## Required Data  
 
 1. **Digital Elevation Model (DEM)**  
-   The primary input is a DEM of the study area, with a resolution appropriate to the level of detail expected by the user. During the tool’s development, DEMs from ArcticDEM (https://www.pgc.umn.edu/data/arcticdem/) were used at a 10-meter resolution. (ex: [input_DEM](/Outlines_and_centerlines_delineation/input_DEM.tif)
+   The primary input is a DEM of the study area, with a resolution appropriate to the level of detail expected by the user. During the tool’s development, DEMs from ArcticDEM (https://www.pgc.umn.edu/data/arcticdem/) were used at a 10-meter resolution. (ex: [input_DEM](/Outlines_and_centerlines_delineation/input_DEM.tif))
 
 2. **Normalized Difference Water Index (NDWI) Image**  
-   The second required input is an image representing the NDWI of the same area as the DEM. This image is used to filter out water bodies, such as lakes, which are prevalent in regions where this method has been developed (e.g., Canada, Laurentide Ice Sheet, Keewatin area). NDWI is calculated from satellite imagery bands, and the equations are described in various sources for each satellite data provider.  (ex: [input_NDWI](/Outlines_and_centerlines_delineation/input_NDWI.tif)
+   The second required input is an image representing the NDWI of the same area as the DEM. This image is used to filter out water bodies, such as lakes, which are prevalent in regions where this method has been developed (e.g., Canada, Laurentide Ice Sheet, Keewatin area). NDWI is calculated from satellite imagery bands, and the equations are described in various sources for each satellite data provider.  (ex: [input_NDWI](/Outlines_and_centerlines_delineation/input_NDWI.tif))
 
-   A script for downloading satellite images and NDWI is provided [NDWI_download_notebook.ipynb](/NDWI/NDWI_download_notebook.ipynb), but it is not fully stable and is not officially part of the publication.  
+   A [script](/NDWI/NDWI_download_notebook.ipynb) for downloading satellite images and NDWI is provided, but it is not fully stable yet and is not officially part of the publication.  
 
    Alternatively, the scripts could run without NDWI input; however, this may result in noisy outputs if water bodies are present in the study area, requiring additional post-processing techniques.  
 
-3. **Custom Grids for Sampling Morphometric Data**  
+4. **Custom Grids for Sampling Morphometric Data**  
    Users can also supply their own grids for sampling morphometric data based on bedform outlines. (see [Custom_grid_Morphometric_parameters_calculation_and_statistical_sampling](Morphometric_parameters_calculation_and_statistical_sampling/Custom_grid_Morphometric_parameters_calculation_and_statistical_sampling.ipynb))
 
 ---
