@@ -1,4 +1,4 @@
-# SubglacialBedforms  
+# Automated Regional analysis for Non-classified Outlines of subglacial bedfoRms.  
 
 
 ## Table of Contents  
