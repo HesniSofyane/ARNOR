@@ -16,7 +16,7 @@
 
 
 ## Description  
-This set of scripts is part of the work described in the publication available at the following link: [link](https://doi.org/10.1111/bor.70003Digital Object Identifier (DOI)). Its purpose is to automate the mapping of subglacial bedforms, producing geomorphological maps ([bedform outlines](Outlines_and_centerlines_delineation/smoothed_outlines.gpkg) and [centerlines](Outlines_and_centerlines_delineation/smoothed_centerlines.gpkg)) as well as morphometric maps ([bedform outlines](Morphometric_parameters_calculation_and_statistical_sampling/outlines_with_morphometrics.gpkg) and [hexagonal grids](Morphometric_parameters_calculation_and_statistical_sampling/hexagonal_grid_with_morphometrics.gpkg) with values of various [morphometric parameters](/Documentation/Morphometric_parameters.md).  
+This set of scripts is part of the work described in the publication available at the following [link](https://doi.org/10.1111/bor.70003). Its purpose is to automate the mapping of subglacial bedforms, producing geomorphological maps ([bedform outlines](Outlines_and_centerlines_delineation/smoothed_outlines.gpkg) and [centerlines](Outlines_and_centerlines_delineation/smoothed_centerlines.gpkg)) as well as morphometric maps ([bedform outlines](Morphometric_parameters_calculation_and_statistical_sampling/outlines_with_morphometrics.gpkg) and [hexagonal grids](Morphometric_parameters_calculation_and_statistical_sampling/hexagonal_grid_with_morphometrics.gpkg)) with values of various [morphometric parameters](Documentation/Morphometric_parameters.md).  
 
 The goal of these cartographic products is to support the reconstruction of ice sheet dynamics by providing insights into subglacial environments, such as subglacial deformation or hydrology.
 
